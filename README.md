@@ -14,14 +14,26 @@ All tools are **open source** and runnable **free of charge** using Google Colab
 
 ## ⚡ Quick Start
 
-**New to the project?** Start here:
+**New to the project?** Follow these steps:
 
-1. **📖 Read**: [Module 01 README](notebooks/Module_01_Introduction/README.md) - Project overview
-2. **🔧 Setup**: [Choose your environment](#-getting-started-recommended) (Colab or local)
-3. **📓 Copy**: [Notebook Template](notebooks/notebook_template.ipynb) - Start your first notebook
-4. **👀 Learn**: [Example Notebook](notebooks/example_data_exploration.ipynb) - See best practices
-5. **📐 Code**: Follow [Coding Standards](docs/coding_standards.md) - Write clean code
-6. **📚 Reference**: Use [Code Snippets](docs/code_snippets.md) - Quick copy-paste solutions
+### 🎓 For Students/Learners (Recommended Path)
+
+1. **🔧 Setup Environment FIRST** - Choose ONE option:
+   - **Option A (Easiest)**: Use [Google Colab](docs/setup_google_colab.md) - No installation needed! ✨
+   - **Option B (Local)**: Run `./setup.sh` and select "Student profile" - Automated setup 🚀
+   - **Option C (Manual)**: See [Installation Guide](docs/installation_profiles.md) for details
+
+2. **📖 Start Learning**: Open [Module 01 README](notebooks/Module_01_Introduction/README.md) and follow the notebooks
+
+3. **📓 Use Templates**: [Notebook Template](notebooks/notebook_template.ipynb) for your own notebooks
+
+4. **👀 Learn Best Practices**: [Example Notebook](notebooks/example_data_exploration.ipynb)
+
+### 👨‍💻 For Developers/Contributors
+
+- **Full setup guide**: [Installation Profiles](docs/installation_profiles.md) - Choose developer or full profile
+- **Contributing**: [CONTRIBUTING.md](CONTRIBUTING.md) - Code standards and workflow
+- **Code Quality**: [Coding Standards](docs/coding_standards.md) - Professional Python code
 
 **Need help?** Check [CONTRIBUTING.md](CONTRIBUTING.md) for guidelines and support.
 
@@ -41,7 +53,9 @@ By completing this project, you will learn how to:
 
 ## 🚀 Getting Started (Recommended)
 
-### Option 1: Google Colab (No Setup Required)
+> **💡 First time here?** See [Installation Profiles Guide](docs/installation_profiles.md) to understand your options, or just pick one below!
+
+### Option 1: Google Colab (No Setup Required) ⭐ **Recommended for Beginners**
 1. Fork or clone this repository
 2. Open any notebook in `notebooks/`
 3. Click **Open in Colab**
@@ -49,7 +63,29 @@ By completing this project, you will learn how to:
 
 See [Google Colab Setup Guide](docs/setup_google_colab.md) for detailed instructions.
 
-### Option 2: Local Setup
+### Option 2: Local Setup with Script (Automated) ⭐ **Best for Local Development**
+
+**Requirements**: Python 3.9 or higher, bash shell
+
+```bash
+# Clone the repository
+git clone https://github.com/[username]/bike-availability-data-science.git
+cd bike-availability-data-science
+
+# Run the interactive setup script
+./setup.sh
+```
+
+The script will:
+- ✅ Check Python version
+- ✅ Create virtual environment
+- ✅ Let you choose your profile (student/developer/full)
+- ✅ Install packages
+- ✅ Generate sample data
+
+See [Setup Script Guide](docs/setup_script_guide.md) for details.
+
+### Option 3: Manual Local Setup
 
 **Requirements**: Python 3.9 or higher
 
@@ -62,12 +98,23 @@ cd bike-availability-data-science
 python -m venv venv
 source venv/bin/activate  # On Windows: venv\Scripts\activate
 
-# Install dependencies
-pip install -r requirements.txt
+# Choose your installation profile:
 
-# For development (includes testing, linting tools)
-pip install -r requirements-dev.txt
+# For students/learners (recommended for course)
+pip install -e .
+
+# For developers (includes testing, docs tools)
+pip install -e ".[dev]"
+
+# For full environment (includes JupyterLab)
+pip install -e ".[all]"
+
+# Or use traditional requirements files:
+pip install -r requirements.txt        # Student profile
+pip install -r requirements-dev.txt   # Developer profile
 ```
+
+**What's the difference?** See [Installation Profiles Guide](docs/installation_profiles.md) for a detailed comparison.
 
 See [Dependency Management Guide](docs/dependency_management.md) for more details.
 
