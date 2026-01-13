@@ -78,8 +78,7 @@ Examples:
 - 📚 [Code Snippets](../../docs/code_snippets.md) - Quick reference
 - 🔧 [Google Colab Setup](../../docs/setup_google_colab.md) - Cloud setup
 - 🌐 [Open Data Sources](../../docs/open_data_sources.md) - Full data catalog
-- 🤝 [CONTRIBUTING.md](../../CONTRIBUTING.md) - Guidelines
-- � [Dependency Management](../../docs/dependency_management.md) - Environment setup
+- 📦 [Dependency Management](../../docs/dependency_management.md) - Environment setup
 
 ## ✨ Definition of Done (Checkpoint)
 Before moving to Module 02, ensure:
