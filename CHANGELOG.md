@@ -9,6 +9,90 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ---
 
+## [0.4.0] - 2026-01-14 (Documentation Reorganization)
+
+> **Major Refactor**: Organized documentation into logical categories for better navigation
+
+### Changed
+
+#### 📁 Documentation Structure Reorganization
+
+**Restructured `docs/` folder** from flat 17-file structure to categorized hierarchy:
+
+```
+docs/
+├── README.md (NEW)              ← Navigation guide
+├── setup/                       ← Environment & Getting Started (5 files)
+│   ├── setup_google_colab.md
+│   ├── setup_script_guide.md
+│   ├── installation_profiles.md
+│   ├── python_version_setup.md
+│   └── dependency_management.md
+├── guides/                      ← Learning Resources (4 files)
+│   ├── DATA_SCIENCE_THINKING_FRAMEWORK.md
+│   ├── ML_MODEL_TYPES_REFERENCE.md
+│   ├── TARGET_VARIABLE_SELECTION_GUIDE.md
+│   └── PANDAS_QUICK_REFERENCE.md
+├── standards/                   ← Development Best Practices (5 files)
+│   ├── coding_standards.md
+│   ├── code_snippets.md
+│   ├── experiment_best_practices.md
+│   ├── model_documentation_guidelines.md
+│   └── reporting_template.md
+└── reference/                   ← Project Reference (3 files)
+    ├── open_data_sources.md
+    ├── README_NAVIGATION.md
+    └── LEARNER_EXPERIENCE_IMPROVEMENTS.md
+```
+
+**Categories:**
+- **setup/** - For first-time users setting up environment
+- **guides/** - Educational content referenced from notebooks
+- **standards/** - Development best practices and templates
+- **reference/** - Data sources and meta documentation
+
+### Added
+
+- **docs/README.md** - Comprehensive navigation guide
+  - Explains purpose of each folder
+  - Quick navigation table by user goal
+  - File naming conventions
+  - Maintenance guidelines
+
+### Updated
+
+**All documentation references across repository** (100+ links updated):
+- Notebooks (all modules)
+- Module READMEs (10 modules)
+- Main README.md
+- CHANGELOG.md
+- Example notebooks
+
+**Updated paths:**
+- Setup docs: `docs/*.md` → `docs/setup/*.md`
+- Learning guides: `docs/*.md` → `docs/guides/*.md`
+- Standards: `docs/*.md` → `docs/standards/*.md`
+- Reference: `docs/*.md` → `docs/reference/*.md`
+
+### Benefits
+
+✅ **Clear organization** - Each folder serves specific purpose/audience
+✅ **Easy navigation** - Users find docs quickly by category
+✅ **Scalable** - Easy to add new docs in appropriate category
+✅ **Professional** - Industry-standard documentation structure
+✅ **Better discoverability** - docs/README.md provides overview
+✅ **Maintainable** - Clear guidelines for where to add new content
+
+### Migration Notes
+
+**For external links:** Update any bookmarks or external references to use new paths:
+- Old: `docs/coding_standards.md`
+- New: `docs/standards/coding_standards.md`
+
+**For contributors:** See `docs/README.md` for where to add new documentation.
+
+---
+
 ## [0.3.1] - 2026-01-14 (Repository Organization & Path Fixes)
 
 > **Refactor**: Move documentation to proper location and fix notebook path handling
@@ -17,10 +101,10 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 #### 📁 Documentation Organization
 - **Moved 4 reference documents** from `notebooks/Module_01_Introduction/` to `docs/`
-  - `DATA_SCIENCE_THINKING_FRAMEWORK.md` → `docs/DATA_SCIENCE_THINKING_FRAMEWORK.md`
-  - `ML_MODEL_TYPES_REFERENCE.md` → `docs/ML_MODEL_TYPES_REFERENCE.md`
-  - `PANDAS_QUICK_REFERENCE.md` → `docs/PANDAS_QUICK_REFERENCE.md`
-  - `TARGET_VARIABLE_SELECTION_GUIDE.md` → `docs/TARGET_VARIABLE_SELECTION_GUIDE.md`
+  - `DATA_SCIENCE_THINKING_FRAMEWORK.md` → `docs/guides/DATA_SCIENCE_THINKING_FRAMEWORK.md`
+  - `ML_MODEL_TYPES_REFERENCE.md` → `docs/guides/ML_MODEL_TYPES_REFERENCE.md`
+  - `PANDAS_QUICK_REFERENCE.md` → `docs/guides/PANDAS_QUICK_REFERENCE.md`
+  - `TARGET_VARIABLE_SELECTION_GUIDE.md` → `docs/guides/TARGET_VARIABLE_SELECTION_GUIDE.md`
   - **Rationale**: Maintains clean separation between notebooks and comprehensive documentation
   - **Benefit**: Aligns with professional repository standards
 

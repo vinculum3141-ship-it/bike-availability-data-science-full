@@ -67,25 +67,25 @@ Examples:
 - Use markdown cells to explain your thinking process
 - Include code comments for clarity
 - Save your work frequently
-- Follow the [coding standards](../../docs/coding_standards.md)
+- Follow the [coding standards](../../docs/standards/coding_standards.md)
 - Don't worry about perfection - focus on learning!
 - Run each notebook cell-by-cell to understand the flow
 
 ## 📚 Resources
 - 📓 [Notebook Template](../notebook_template.ipynb) - Copy this to start
 - 🎓 [Example Notebook](../example_data_exploration.ipynb) - See best practices
-- 📐 [Coding Standards](../../docs/coding_standards.md) - Write clean code
-- 📚 [Code Snippets](../../docs/code_snippets.md) - Quick reference
-- 🔧 [Google Colab Setup](../../docs/setup_google_colab.md) - Cloud setup
-- 🌐 [Open Data Sources](../../docs/open_data_sources.md) - Full data catalog
-- 📦 [Dependency Management](../../docs/dependency_management.md) - Environment setup
+- 📐 [Coding Standards](../../docs/standards/coding_standards.md) - Write clean code
+- 📚 [Code Snippets](../../docs/standards/code_snippets.md) - Quick reference
+- 🔧 [Google Colab Setup](../../docs/setup/setup_google_colab.md) - Cloud setup
+- 🌐 [Open Data Sources](../../docs/reference/open_data_sources.md) - Full data catalog
+- 📦 [Dependency Management](../../docs/setup/dependency_management.md) - Environment setup
 
 ## 📚 Additional Learning Resources
 Module 01 introduces key concepts with links to comprehensive documentation:
-- 🧠 [Data Science Thinking Framework](../../docs/DATA_SCIENCE_THINKING_FRAMEWORK.md) - Strategic DS workflow
-- 🤖 [ML Model Types Reference](../../docs/ML_MODEL_TYPES_REFERENCE.md) - Model selection guide
-- 🎯 [Target Variable Selection Guide](../../docs/TARGET_VARIABLE_SELECTION_GUIDE.md) - Problem definition
-- 🐼 [Pandas Quick Reference](../../docs/PANDAS_QUICK_REFERENCE.md) - DataFrame operations
+- 🧠 [Data Science Thinking Framework](../../docs/guides/DATA_SCIENCE_THINKING_FRAMEWORK.md) - Strategic DS workflow
+- 🤖 [ML Model Types Reference](../../docs/guides/ML_MODEL_TYPES_REFERENCE.md) - Model selection guide
+- 🎯 [Target Variable Selection Guide](../../docs/guides/TARGET_VARIABLE_SELECTION_GUIDE.md) - Problem definition
+- 🐼 [Pandas Quick Reference](../../docs/guides/PANDAS_QUICK_REFERENCE.md) - DataFrame operations
 
 ## ✨ Definition of Done (Checkpoint)
 Before moving to Module 02, ensure:
