@@ -7,13 +7,32 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
-> **Note**: Documentation files to be committed  
+> **Note**: Repository cleanup and Module 02 preparation  
 > **Date**: 2026-01-14
 
 ### Added
-- Documentation tracking files
-  - `CHANGELOG.md` - Course development tracking (this file)
-  - `MODULE_01_SUMMARY.md` - Module 01 completion summary
+- **Module 02 README** - Development planning notes
+  - Added implementation topics and API integration patterns
+  - Added estimated structure (4-5 notebooks)
+  - Added error handling and data storage conventions
+
+### Changed
+- **.gitignore** - Now ignores `.vscode/` directory
+  - Prevents editor-specific settings from being committed
+
+### Removed
+- **MODULE_01_SUMMARY.md** - Removed temporary summary document
+  - Information integrated into CHANGELOG and Module 02 README
+
+---
+
+## [0.2.1] - 2026-01-14 (Documentation & Changelog)
+
+### Added
+- **CHANGELOG.md** - Comprehensive version history tracking
+  - Documents all versions from v0.0.1 to v0.2.0
+  - Tracks all 15 commits for Module 01 development
+  - Includes detailed timeline and commit references
 
 ---
 

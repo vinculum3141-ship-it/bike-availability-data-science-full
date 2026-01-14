@@ -3,6 +3,27 @@
 ## 📌 Module Overview
 Learn how to acquire data from various sources including APIs, open data portals, and local files.
 
+---
+
+## 🎯 Development Planning Notes
+
+**Estimated Structure**: 4-5 notebooks
+
+**Key Implementation Topics:**
+- Real-time bike data fetching (CityBikes API)
+- Weather data integration (Open-Meteo or similar)
+- Rate limiting and retry logic
+- Data validation and quality checks
+- Storage patterns for raw data
+
+**API Integration Patterns:**
+- Error handling best practices
+- Retry mechanisms for failed requests
+- Response validation and parsing
+- Data storage conventions
+
+---
+
 ## 🎯 Learning Objectives
 By the end of this module, you should be able to:
 - Fetch data from REST APIs
