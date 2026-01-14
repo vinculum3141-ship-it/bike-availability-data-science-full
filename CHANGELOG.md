@@ -7,8 +7,155 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
-> **Note**: Repository cleanup and Module 02 preparation  
-> **Date**: 2026-01-14
+---
+
+## [0.3.0] - 2026-01-14 (Module 01 Educational Enhancements)
+
+> **Major Update**: Comprehensive metadata enrichment and external documentation framework  
+> **Focus**: Balance in-notebook guidance with detailed external references
+
+### Added
+
+#### 📚 External Reference Documents (4 New)
+- **DATA_SCIENCE_THINKING_FRAMEWORK.md** (663 lines)
+  - Comprehensive strategic thinking guide for data science workflow
+  - Data cleaning decision matrices with detailed tables
+  - Transformation timing and strategies (when/why/how)
+  - Feature engineering techniques by problem type
+  - Visualization selection guide (match question to viz type)
+  - Iterative process flowcharts and common mistakes
+  - Applied examples for bike availability project
+
+- **ML_MODEL_TYPES_REFERENCE.md** (462 lines)
+  - Complete ML model type comparison guide
+  - 7 regression models (pros/cons/requirements)
+  - Classification vs regression decision framework
+  - Model scaling requirements by type
+  - Real-world use cases and selection criteria
+
+- **TARGET_VARIABLE_SELECTION_GUIDE.md** (523 lines)
+  - Target variable decision framework
+  - Business problem to ML problem translation
+  - Common mistakes and how to avoid them
+  - Data leakage detection guide
+  - Multiple target variable strategies
+
+- **PANDAS_QUICK_REFERENCE.md** (208 lines)
+  - DataFrame methods quick reference
+  - Common operations with examples
+  - Statistical summaries guide
+  - Data manipulation patterns
+
+#### 📊 Enhanced Notebook Metadata
+- **M1_04_sample_data_exploration.ipynb** - Comprehensive educational metadata added to all major sections:
+  
+  **Part 2: Data Inspection**
+  - Added "Why Data Inspection Matters" section explaining critical importance
+  - Data quality checks cell with explicit validation patterns
+  
+  **Part 3: Descriptive Statistics**
+  - Added df.describe() comprehensive explanation (8 statistics defined)
+  - Explained what each statistic reveals about data
+  - Clarified behavior with non-numeric columns
+  
+  **Part 4: Categorical Analysis**
+  - Added categorical vs numeric analysis explanation
+  - Why different methods are needed for different data types
+  - ML implications of categorical variables
+  
+  **Part 5: Visualizations (5 Enhanced)**
+  
+  - **Visualization 1: Time Series**
+    - Pattern identification table (5 types: trends, cycles, station differences, zero events, volatility)
+    - Modeling decision guidance based on observed patterns
+    - "What to Look For" framework with 5 key questions
+  
+  - **Visualization 2: Hourly Patterns**
+    - Rush hour effects and peak/off-peak analysis
+    - Non-linearity implications for model selection
+    - Derived features guidance (is_rush_hour, time_of_day categories)
+  
+  - **Visualization 3: Temperature Scatter**
+    - Correlation strength interpretation guide
+    - Non-linear pattern detection
+    - Feature interaction recommendations (temperature × hour/station)
+  
+  - **Visualization 4: Weekday/Weekend Box Plot**
+    - Box plot component explanation (Q1, median, Q3, IQR, whiskers, outliers)
+    - 5 pattern types table (central tendency, variability, shape, outliers, overlap)
+    - Modeling decisions for different distribution scenarios
+  
+  - **Visualization 5: Correlation Heatmap**
+    - Comprehensive correlation interpretation guide
+    - Multicollinearity detection and handling strategies
+    - Feature selection implications by model type
+    - 6 critical analyses framework
+    - Common pitfalls (correlation ≠ causation, non-linearity)
+  
+  **Part 6: Problem Definition**
+  - Added "How Exploration Informed Our Problem Definition" section
+  - 9 detailed connections showing how each exploration step shaped the problem statement
+  - Demonstrates data-driven decision making workflow
+  - Explains why exploration is essential before modeling
+
+### Changed
+
+#### 🎯 Streamlined Notebook Sections
+- **Strategic Thinking Section** - Condensed from 200+ lines to concise quick reference
+  - Moved comprehensive framework to DATA_SCIENCE_THINKING_FRAMEWORK.md
+  - Kept actionable quick decision guide in notebook
+  - Added clear link to external documentation
+
+- **Model Requirements Section** - Simplified to focused quick reference
+  - Moved detailed model comparison to ML_MODEL_TYPES_REFERENCE.md
+  - Kept scaling requirements table and recommended starting points
+  - Added clear link to external documentation
+
+- **Baseline Metrics Output** - Clarified messaging to prevent confusion
+  - Explicitly states "We have NOT trained a model yet!"
+  - Clarifies baseline metrics are targets for Module 05
+  - Explains these are numbers to beat, not current model performance
+
+### Improved
+
+#### 📖 Educational Patterns Established
+- **Balance**: Concise in-notebook guidance + comprehensive external references
+- **Focus**: WHY and HOW to interpret, not code mechanics
+- **Structure**: Consistent metadata format across all visualizations
+- **Critical Thinking**: Emphasis on pattern → insight → modeling decision workflow
+- **Active Learning**: Reflection questions with expandable answers
+
+#### 🔗 Documentation Integration
+- All external references properly linked from notebook
+- Clear signposting for when to consult external docs
+- Seamless flow between notebook content and deeper resources
+
+### Technical Details
+
+**Files Modified**: 1
+- `notebooks/Module_01_Introduction/M1_04_sample_data_exploration.ipynb`
+
+**Files Added**: 4
+- `notebooks/Module_01_Introduction/DATA_SCIENCE_THINKING_FRAMEWORK.md`
+- `notebooks/Module_01_Introduction/ML_MODEL_TYPES_REFERENCE.md`
+- `notebooks/Module_01_Introduction/PANDAS_QUICK_REFERENCE.md`
+- `notebooks/Module_01_Introduction/TARGET_VARIABLE_SELECTION_GUIDE.md`
+
+**Total Lines Added**: ~1,856 lines of comprehensive documentation
+**Notebook Cells**: 42 total (20 markdown, 22 code)
+
+### Impact
+
+This update establishes a **professional educational framework** for the entire course:
+- ✅ Prevents notebook clutter while maintaining comprehensive coverage
+- ✅ Enables progressive learning (quick reference → deep dive)
+- ✅ Teaches critical thinking over mechanical execution
+- ✅ Provides sound foundation for Modules 02-10
+- ✅ Portfolio-ready professional documentation standards
+
+---
+
+## [0.2.1] - 2026-01-14 (Module 02 Preparation & Cleanup)
 
 ### Added
 - **Module 02 README** - Development planning notes
