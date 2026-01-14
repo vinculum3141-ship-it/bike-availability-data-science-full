@@ -80,6 +80,13 @@ Examples:
 - 🌐 [Open Data Sources](../../docs/open_data_sources.md) - Full data catalog
 - 📦 [Dependency Management](../../docs/dependency_management.md) - Environment setup
 
+## 📚 Additional Learning Resources
+Module 01 introduces key concepts with links to comprehensive documentation:
+- 🧠 [Data Science Thinking Framework](../../docs/DATA_SCIENCE_THINKING_FRAMEWORK.md) - Strategic DS workflow
+- 🤖 [ML Model Types Reference](../../docs/ML_MODEL_TYPES_REFERENCE.md) - Model selection guide
+- 🎯 [Target Variable Selection Guide](../../docs/TARGET_VARIABLE_SELECTION_GUIDE.md) - Problem definition
+- 🐼 [Pandas Quick Reference](../../docs/PANDAS_QUICK_REFERENCE.md) - DataFrame operations
+
 ## ✨ Definition of Done (Checkpoint)
 Before moving to Module 02, ensure:
 - [ ] ✅ You can open the repo in Google Colab (or run locally)

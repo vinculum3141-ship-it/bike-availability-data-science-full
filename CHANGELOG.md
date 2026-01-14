@@ -9,6 +9,55 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ---
 
+## [0.3.1] - 2026-01-14 (Repository Organization & Path Fixes)
+
+> **Refactor**: Move documentation to proper location and fix notebook path handling
+
+### Changed
+
+#### 📁 Documentation Organization
+- **Moved 4 reference documents** from `notebooks/Module_01_Introduction/` to `docs/`
+  - `DATA_SCIENCE_THINKING_FRAMEWORK.md` → `docs/DATA_SCIENCE_THINKING_FRAMEWORK.md`
+  - `ML_MODEL_TYPES_REFERENCE.md` → `docs/ML_MODEL_TYPES_REFERENCE.md`
+  - `PANDAS_QUICK_REFERENCE.md` → `docs/PANDAS_QUICK_REFERENCE.md`
+  - `TARGET_VARIABLE_SELECTION_GUIDE.md` → `docs/TARGET_VARIABLE_SELECTION_GUIDE.md`
+  - **Rationale**: Maintains clean separation between notebooks and comprehensive documentation
+  - **Benefit**: Aligns with professional repository standards
+
+#### 🔗 Updated References
+- **M1_04_sample_data_exploration.ipynb**
+  - Updated all 4 documentation links to point to `../../docs/` folder
+  - Fixed path handling for cross-platform compatibility
+  - Improved `project_root` detection for local execution
+  - Added robust file existence checking before data loading
+  - Enhanced error messages with troubleshooting steps
+
+- **Module 01 README**
+  - Added "Additional Learning Resources" section with links to all 4 reference docs in docs folder
+  - Maintains clear navigation to comprehensive documentation
+
+### Fixed
+- **Path Detection Issues** in setup cell
+  - More robust `project_root` calculation using notebook directory
+  - Works correctly regardless of execution directory
+  - Added clear output showing data loading path
+  
+- **Data Loading** in load data cell
+  - Removed hardcoded relative path
+  - Removed unnecessary `!ls` command and TODO comment
+  - Proper `os.path.join()` using `project_root`
+  - File existence verification before loading
+  - Automatic fallback to alternate path if needed
+  - Comprehensive error handling with diagnostics
+
+### Impact
+✅ **Professional organization** - Documentation in docs/, notebooks in notebooks/
+✅ **Improved reliability** - No more manual path adjustments needed
+✅ **Better user experience** - Clear error messages and automatic path resolution
+✅ **Cross-platform compatibility** - Works on Windows/Mac/Linux without modification
+
+---
+
 ## [0.3.0] - 2026-01-14 (Module 01 Educational Enhancements)
 
 > **Major Update**: Comprehensive metadata enrichment and external documentation framework  
