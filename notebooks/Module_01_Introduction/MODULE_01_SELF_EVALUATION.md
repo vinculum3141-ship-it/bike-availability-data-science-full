@@ -95,7 +95,6 @@ By the end of M1_02, you should be able to:
 
 - [ ] I successfully opened M1_02 in Google Colab OR set up locally
 - [ ] I chose my setup method (Colab/Script/Manual) based on my needs
-- [ ] I understand the three installation profiles (student/developer/full)
 - [ ] I can import pandas, numpy, matplotlib, and seaborn
 - [ ] I verified my Python version (3.9-3.12)
 - [ ] All cells in M1_02 ran without errors
@@ -448,7 +447,6 @@ Based on your self-evaluation, what will you focus on?
 - [ ] I need to review basic pandas commands before Module 02
 - [ ] I need to practice data visualization more
 - [ ] I should revisit the business context to stay motivated
-- [ ] I want to explore the bonus content (M1_R1)
 - [ ] I'm ready to move forward confidently
 - [ ] Other: _______________________________________
 
@@ -499,7 +497,6 @@ Based on your self-evaluation, what will you focus on?
 
 If you finished early and want more practice:
 
-1. **Explore the bonus notebook**: M1_R1_fetching_bike_data.ipynb
 2. **Modify visualizations**: Try different plot types in M1_04
 3. **Find another open dataset**: Practice loading and exploring it
 4. **Customize the project**: Think about how you'd adapt this to your city
