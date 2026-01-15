@@ -36,8 +36,10 @@ This document lists free, open data sources for the bike availability prediction
 
 ### KNMI (Royal Netherlands Meteorological Institute)
 - **URL**: https://www.knmi.nl/kennis-en-datacentrum/achtergrond/data-ophalen-vanuit-een-script
-- **Description**: Dutch weather service with historical and real-time data
+- **Description**: Official Dutch weather service with historical and real-time data
 - **Access**: Free API, no authentication required
+- **Use Case**: Authoritative source for Netherlands weather, ideal for production models requiring official records
+- **Note**: More complex API than Open-Meteo (requires parsing fixed-width text format)
 - **Data Fields**:
   - Temperature (current, min, max)
   - Precipitation
@@ -46,6 +48,7 @@ This document lists free, open data sources for the bike availability prediction
   - Air pressure
   - Visibility
   - Weather conditions
+- **Implementation**: See `M2_R1_knmi_api.ipynb` in Module 02 for working code examples
 
 ### Open-Meteo
 - **URL**: https://open-meteo.com/
