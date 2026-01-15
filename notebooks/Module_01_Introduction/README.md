@@ -18,6 +18,7 @@ Complete the following notebooks in this folder:
 
 ### M1_01_project_overview.ipynb
 **Purpose**: Set context, motivate learners, explain what you'll build
+**Time**: ~30-45 minutes (reading + reflection)
 - Welcome & course overview
 - Smart cities and bike-sharing context
 - Why this project matters
@@ -27,15 +28,18 @@ Complete the following notebooks in this folder:
 
 ### M1_02_environment_setup.ipynb
 **Purpose**: Remove all technical barriers and build confidence
+**Time**: ~45-90 minutes (setup + verification)
 - Google Colab setup (step-by-step)
 - Local environment setup (alternative)
 - Install required packages
 - Test Python environment
 - Verify library versions and imports
 - **Minimal code** - just setup verification
+- **Troubleshooting** - common issues and solutions
 
 ### M1_03_open_data_sources.ipynb
 **Purpose**: Understand where data comes from and why open data matters
+**Time**: ~30-45 minutes (reading + light coding)
 - What is open data?
 - Primary data sources (bike + weather APIs)
 - Light API demo: fetch and peek at data
@@ -45,12 +49,16 @@ Complete the following notebooks in this folder:
 
 ### M1_04_sample_data_exploration.ipynb
 **Purpose**: Build confidence with hands-on data exploration
+**Time**: ~90-120 minutes (hands-on analysis)
 - Load sample dataset (pre-downloaded CSV)
 - Basic EDA: `.info()`, `.describe()`, `.head()`
 - Simple time series visualization
 - Define the prediction problem (features & target)
 - Set project goals and success metrics
 - **Hands-on code** - practical data science skills
+- **Reflection exercises** - with example answers
+
+**Total Module Time**: ~4-6 hours for thorough completion
 
 ## 📝 Naming Convention
 Follow this pattern: `M1_{number}_{description}.ipynb`

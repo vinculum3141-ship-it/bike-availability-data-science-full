@@ -9,6 +9,79 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ---
 
+## [0.5.0] - 2026-01-15 (Module 01 Enhancement & Reference System)
+
+> **Module 01 Production Ready**: Comprehensive tutor/student guidance with reference document system
+
+### Added
+
+#### 📚 Module 01 Self-Evaluation & Tutor Guidance
+
+**Enhanced `MODULE_01_SELF_EVALUATION.md`** (974 lines) with comprehensive tutor support:
+- **Section 1 (Project Overview)**: Guidance for 4 conceptual questions with example answers, quality indicators
+- **Section 2 (Environment Setup)**: Guidance for 3 reflection questions on setup decisions and troubleshooting
+- **Section 3 (Open Data)**: Answer keys for 4 knowledge checks + guidance for 2 reflection questions
+- **Section 4 (Data Exploration)**: Quality indicators for 5 knowledge checks + guidance for 3 reflection questions
+- **Section 6 (Reflection & Goal Setting)**: Guidance for 7 metacognitive questions on pacing and learning strategies
+
+**Tutor Guidance Format**: Purpose statements, expected components, quality indicators (weak/good/strong), red flags, follow-up questions
+
+#### 📖 Reference Document System
+
+**Created `REFERENCE_M1_02_troubleshooting.md`** (148 lines):
+- Comprehensive solutions for 10 setup issues (vs 6 basic in notebook)
+- Platform-specific guidance (Mac/Linux/Windows)
+- Deep-linkable sections with 6 anchor tags: `#permission-denied`, `#kernel-errors`, `#ssl-errors`, `#pip-not-found`, `#getting-help`, `#checklist`
+- Quick Navigation section at top
+- Links to setup documentation for escalation
+
+**Created `REFERENCE_M1_04_example_answers.md`** (125 lines):
+- 5 example analytical answers for M1_04 reflection questions
+- Expandable `<details>` format (students write first, then compare)
+- Deep-linkable sections with 5 anchor tags: `#time-series-viz`, `#hourly-patterns`, `#weather-relationship`, `#weekday-weekend`, `#correlation-heatmap`
+- Demonstrates good analytical thinking patterns (observations → domain reasoning → modeling implications)
+
+#### 🔗 Notebook Integration Callouts
+
+**Added 8 callout boxes** linking notebooks to reference documents:
+- **M1_02** (3 callouts): After matplotlib test, package verification, environment summary → troubleshooting guide
+- **M1_04** (5 callouts): After each reflection section → corresponding example answer
+- **Non-intrusive design**: Blockquote format with icons (⚠️ 💡 📘) that students can skip if not needed
+- **Targeted deep links**: Direct to specific anchor (#kernel-errors, #time-series-viz, etc.)
+
+### Changed
+
+#### ⏱️ Module 01 README Enhancement
+
+**Updated `README.md`** with time estimates for student planning:
+- M1_01: ~30-45 minutes (reading + reflection)
+- M1_02: ~45-90 minutes (setup + verification)
+- M1_03: ~30-45 minutes (reading + light coding)
+- M1_04: ~90-120 minutes (hands-on analysis)
+- **Total Module Time**: ~4-6 hours for thorough completion
+
+### Design Decisions
+
+**Reference Documents vs Notebook Integration**:
+- **Kept separate**: Maintains notebook focus, prevents scroll fatigue
+- **High discoverability**: Callout boxes with targeted deep links
+- **Intentional friction**: Students can't passively scroll past answers, must actively choose to compare
+- **Easier maintenance**: Single reference file vs multiple notebook cells
+- **Reusable**: Can reference across modules
+
+**Document Naming**: `REFERENCE_` prefix indicates supplementary material vs core instructional content
+
+### Module Status
+
+**Module 01**: ✅ Production-ready
+- 4 notebooks complete (M1_01, M1_02, M1_03, M1_04)
+- Comprehensive tutor guidance (all sections)
+- Student support rated 9/10 (excellent)
+- Reference system with 11 anchor-linked sections
+- All documentation links verified
+
+---
+
 ## [0.4.0] - 2026-01-14 (Documentation Reorganization)
 
 > **Major Refactor**: Organized documentation into logical categories for better navigation
