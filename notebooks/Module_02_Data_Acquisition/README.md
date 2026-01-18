@@ -192,6 +192,14 @@ Before moving to Module 03, ensure:
 - [ ] Raw data is saved in `data/raw/`
 - [ ] You have both bike and weather data
 - [ ] Data sources are documented
+- [ ] **NEW:** You understand OV-fiets operational constraints (no docks, 15-min refresh, same-station returns)
+
+## 🔜 What's Next?
+**Module 3 Preview**: In the next module, you'll explore this data and discover **two distinct rental patterns** — commuters (short-term) and tourists (multi-day). At the end of Module 3, you'll choose your learning track:
+- **Track A (Beginner):** Classification for short-term predictions
+- **Track B (Advanced):** Regression + Time series for long-term forecasting
+
+💡 **Tip:** Keep the operational constraints in mind as you explore patterns in Module 3!
 - [ ] Code is clean and well-documented
 
 ---
