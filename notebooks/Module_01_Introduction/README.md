@@ -49,12 +49,15 @@ By the end of this module, you should be able to:
 - ✔ Load and inspect a sample dataset with basic exploration
 - ✔ Define the prediction problem clearly
 
+---
+
 ## ✅ Your Tasks
 Complete the following notebooks in this folder:
 
 ### M1_01_project_overview.ipynb
+⏱️ **Estimated Time**: 15-20 minutes
+
 **Purpose**: Set context, motivate learners, explain what you'll build
-**Time**: ~30-45 minutes (reading + reflection)
 - Welcome & course overview
 - Smart cities and bike-sharing context
 - Why this project matters
@@ -63,8 +66,9 @@ Complete the following notebooks in this folder:
 - **No code** - pure orientation
 
 ### M1_02_environment_setup.ipynb
+⏱️ **Estimated Time**: 20-30 minutes (setup) + 10 minutes (verification)
+
 **Purpose**: Remove all technical barriers and build confidence
-**Time**: ~45-90 minutes (setup + verification)
 - Google Colab setup (step-by-step)
 - Local environment setup (alternative)
 - Install required packages
@@ -74,8 +78,9 @@ Complete the following notebooks in this folder:
 - **Troubleshooting** - common issues and solutions
 
 ### M1_03_open_data_sources.ipynb
+⏱️ **Estimated Time**: 25-35 minutes
+
 **Purpose**: Understand where data comes from and why open data matters
-**Time**: ~30-45 minutes (reading + light coding)
 - What is open data?
 - Primary data sources (bike + weather APIs)
 - Light API demo: fetch and peek at data
@@ -84,8 +89,9 @@ Complete the following notebooks in this folder:
 - **Light code** - builds confidence with APIs
 
 ### M1_04_sample_data_exploration.ipynb
+⏱️ **Estimated Time**: 40-50 minutes
+
 **Purpose**: Build confidence with hands-on data exploration
-**Time**: ~90-120 minutes (hands-on analysis)
 - Load sample dataset (pre-downloaded CSV)
 - Basic EDA: `.info()`, `.describe()`, `.head()`
 - Simple time series visualization
@@ -94,7 +100,6 @@ Complete the following notebooks in this folder:
 - **Hands-on code** - practical data science skills
 - **Reflection exercises** - with example answers
 
-**Total Module Time**: ~4-6 hours for thorough completion
 
 ## 📝 Naming Convention
 Follow this pattern: `M1_{number}_{description}.ipynb`
@@ -104,6 +109,9 @@ Examples:
 - `M1_02_environment_setup.ipynb`
 - `M1_03_open_data_sources.ipynb`
 - `M1_04_sample_data_exploration.ipynb`
+
+## ⏱️ Total Module Time
+**Estimated**: 2-2.5 hours total for all notebooks + self-evaluation
 
 ## 💡 Tips
 - Start with the [notebook template](../notebook_template.ipynb) for consistent structure

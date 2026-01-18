@@ -1,12 +1,15 @@
-# 🚴 Bike Availability – End-to-End Data Science Project
+# 🚴 Data Science for Smart Cities: Bike Sharing Prediction
 
-This repository is a **project-based learning template** covering the full data science lifecycle:
+**Transform smart cities data into actionable predictions** with this hands-on, project-based course. Learn to predict bike availability in Amsterdam's OV-fiets system using real operational data, open APIs, and industry-standard tools.
 
-- Data acquisition & integration
-- Exploration & feature engineering
-- Modeling & validation
-- Visualization & automation
-- Experimentation & collaboration
+## 🎯 Two Learning Tracks. One Powerful Project.
+
+This course offers **flexible dual-track learning** to match your skill level:
+
+- **Track A (Beginner):** Master classification for short-term predictions (20-30 hours)
+- **Track B (Advanced):** Add regression and time series for multi-day forecasting (30-45 hours total)
+
+You'll make an informed track choice in **Module 3** after exploring the data and understanding both use cases.
 
 All tools are **open source** and runnable **free of charge** using Google Colab.
 
@@ -39,15 +42,60 @@ All tools are **open source** and runnable **free of charge** using Google Colab
 
 ---
 
-## 🎯 Learning Objectives
+## 📖 What You'll Learn
 
-By completing this project, you will learn how to:
+### Core Skills (All Students)
+- **Access and integrate** multiple open data sources (CityBikes API, weather data)
+- **Perform exploratory data analysis** to identify patterns and trends
+- **Engineer features** from temporal, weather, and domain-specific data
+- **Build reproducible ML pipelines** using Scikit-learn and MLflow
+- **Validate models** with proper train/test splits and cross-validation
+- **Create interactive dashboards** with Plotly and Streamlit
+- **Communicate findings** to technical and non-technical stakeholders
+- **Automate workflows** for reproducibility and production readiness
 
-- Work with real-world open data
-- Build reproducible data science pipelines
-- Train and validate machine learning models
-- Communicate insights with dashboards
-- Apply industry-aligned best practices
+### Track A: Classification (Beginner)
+- **Predict bike availability** (yes/no) for commuter use cases
+- **Train classification models** (Logistic Regression, Random Forest, XGBoost)
+- **Evaluate with classification metrics** (accuracy, precision, recall, F1-score)
+
+### Track B: Regression & Time Series (Advanced)
+- **Predict bike counts** for capacity planning and tourist use cases
+- **Train regression models** (Linear, Random Forest, Gradient Boosting)
+- **Implement time series forecasting** (ARIMA, Prophet, LSTM basics)
+- **Quantify prediction uncertainty** with confidence intervals
+
+---
+
+## 🎓 Prerequisites
+
+### Track A (Classification)
+**Required:**
+- Basic Python programming (variables, loops, functions)
+- Familiarity with Pandas DataFrames (filtering, grouping)
+- Basic statistics (mean, median, correlation)
+
+**Recommended (will learn during course):**
+- Matplotlib/Seaborn for visualization
+- Scikit-learn basics
+
+### Track B (Regression + Time Series)
+**All Track A prerequisites PLUS:**
+- Machine learning fundamentals (supervised learning, train/test split, overfitting)
+- Regression concepts (linear models, feature scaling)
+- Evaluation metrics (MAE, RMSE, R²)
+
+**Recommended:**
+- Time series concepts (autocorrelation, stationarity)
+- Statistical models (ARIMA, exponential smoothing)
+
+---
+
+## ⏱️ Time Commitment
+
+- **Track A (Classification):** 20-30 hours
+- **Track B (Both Tracks):** 30-45 hours
+- **Flexible pacing:** Self-paced, revisit modules anytime
 
 ---
 
