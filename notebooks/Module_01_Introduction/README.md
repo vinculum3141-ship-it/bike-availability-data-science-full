@@ -3,6 +3,42 @@
 ## 📌 Module Overview
 Introduction to the bike availability prediction project, setting up your environment, and understanding the problem domain. This module focuses on **orientation, confidence, and setup** — not modeling yet!
 
+---
+
+## 🎓 Course Development Strategy
+
+### Pedagogical Approach
+This course uses a **progressive scaffolding strategy** designed for fully online, self-paced learning:
+
+**Scaffolding Levels by Module Type:**
+- **Foundation Modules (M1)**: High scaffolding (90%) - Learn patterns through guided examples
+- **Practice Modules (M2)**: Reduced scaffolding (30-40%) - Apply previous learning with hints only
+- **New Concept Modules (M3-M10)**: Progressive scaffolding (70% → 30%) - Start guided, end independent
+
+**Progressive Difficulty Within Each Notebook:**
+- Part 1: Mostly complete (90%) - Learn the pattern
+- Part 2: Guided practice (70%) - Practice with support
+- Part 3: Moderate challenge (50%) - Balance guidance and independence
+- Part 4: Independent work (30%) - Mostly on your own
+- Part 5: Advanced/Optional (10%) - Minimal help, maximum learning
+
+**Solution Notebooks:**
+- All solutions are in separate `*_SOLUTIONS.ipynb` notebooks
+- Encourages genuine attempts before looking
+- Students choose their own learning path
+- Available for support when needed
+
+**Optional Challenges:**
+- Each notebook includes advanced tasks for experienced learners
+- Skip if building confidence, tackle to level up
+- Not required for module completion
+
+### For This Module (M1):
+- **Scaffolding**: 90% complete code - focus on understanding concepts
+- **Goal**: Build confidence, set context, establish patterns
+- **Approach**: Run and observe → understand → prepare for Module 2 application
+- **Solutions**: Inline (foundational module)
+
 ## 🎯 Learning Objectives
 By the end of this module, you should be able to:
 - ✔ Understand the bike-sharing business problem and smart cities context

@@ -36,6 +36,43 @@ Learn how to acquire data from various sources including APIs, open data portals
 
 ---
 
+## 🎓 Course Development Strategy
+
+### Pedagogical Approach for This Module
+Module 2 uses **reduced scaffolding** for M2_01 & M2_02 (building on M1) and **progressive scaffolding** for M2_03 & M2_04 (new concepts).
+
+**M2_01 & M2_02 Strategy (Apply M1 Knowledge):**
+- **Scaffolding**: 20-40% - Force recall and application from Module 1
+- **Rationale**: If taught in M1, provide hints only (no templates)
+- **Goal**: Identify gaps early, build independence, genuine skill development
+- **Approach**: Review M1 → Attempt with hints → Verify with solutions
+
+**M2_03 & M2_04 Strategy (New Concepts):**
+- **Scaffolding**: 70% → 30% progressive through 5 parts
+- **Rationale**: Lower entry barrier for new material
+- **Goal**: Learn patterns first, then practice independently
+- **Approach**: Observe → Guided practice → Independent application
+
+**Progressive Difficulty (All Notebooks):**
+- Part 1: Setup & Introduction (90% complete)
+- Part 2: Guided Practice (70% for new, 30% for review)
+- Part 3: Moderate Challenge (50%)
+- Part 4: Independent Work (30%)
+- Part 5: Advanced Challenge (10% + optional tasks)
+
+**Solution Notebooks:**
+- `M2_01_SOLUTIONS.ipynb` through `M2_04_SOLUTIONS.ipynb`
+- Use AFTER attempting tasks yourself
+- Available for when genuinely stuck
+- Shows alternative approaches
+
+**Optional Challenges:**
+- Build retry decorators, multi-API comparisons
+- Design data lineage trackers
+- Real-world integration scenarios
+
+---
+
 ## �🎯 Development Planning Notes
 
 **Estimated Structure**: 4-5 notebooks
@@ -45,7 +82,9 @@ Learn how to acquire data from various sources including APIs, open data portals
 - Weather data integration (Open-Meteo or similar)
 - Rate limiting and retry logic
 - Data validation and quality checks
-- Storage patterns for raw data
+- Storage patterns for raw data (CSV, JSON, Parquet)
+- Data versioning and documentation
+- Time-aligned dataset merging
 
 **API Integration Patterns:**
 - Error handling best practices
